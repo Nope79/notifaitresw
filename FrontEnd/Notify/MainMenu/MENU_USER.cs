@@ -14,6 +14,7 @@ using Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Notificacion_User;
 using MaterialSkin.Controls;
 using Proyecto_1.BackEnd;
 using Proyecto_1.FrontEnd.Notify.MENU_USUARIO.Seccion_User;
+using Proyecto_1.FrontEnd.Notify.Usuario_.Grupo_User;
 
 namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO
 {
@@ -21,11 +22,6 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO
     {
         Notificacion n = new Notificacion();
         Usuario u = new Usuario();
-        public MENU_USER()
-        {
-            InitializeComponent();
-            lbl_bienvenue.Text = "Bienvenido ";
-        }
 
         public MENU_USER(Not.Backend.Usuario u)
         {
@@ -58,6 +54,13 @@ namespace Proyecto_1.FrontEnd.Notify.MENU_USUARIO
             SecNot sn = new SecNot(u);
             sn.Show();
             this.Hide();    
+        }
+
+        private void btn_grupos_Click(object sender, EventArgs e)
+        {
+            GrupNot gn = new GrupNot(u);
+            gn.Show();
+            this.Hide();
         }
     }
 }

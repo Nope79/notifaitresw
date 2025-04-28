@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.main_panel = new System.Windows.Forms.Panel();
             this.lbl_bienvenue = new MaterialSkin.Controls.MaterialLabel();
             this.grid_panel = new System.Windows.Forms.Panel();
@@ -90,14 +90,14 @@
             this.dgv_not_impor.BackgroundColor = System.Drawing.Color.LightSlateGray;
             this.dgv_not_impor.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgv_not_impor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_not_impor.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_not_impor.DefaultCellStyle = dataGridViewCellStyle1;
             this.dgv_not_impor.Location = new System.Drawing.Point(40, 38);
             this.dgv_not_impor.Name = "dgv_not_impor";
             this.dgv_not_impor.ReadOnly = true;
@@ -166,6 +166,7 @@
             this.btn_grupos.TabIndex = 1;
             this.btn_grupos.Text = "Grupos";
             this.btn_grupos.UseVisualStyleBackColor = true;
+            this.btn_grupos.Click += new System.EventHandler(this.btn_grupos_Click);
             // 
             // btn_back
             // 

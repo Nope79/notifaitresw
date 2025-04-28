@@ -130,6 +130,24 @@
     <Compile Include="FrontEnd\Notify\MainMenu\MENU_USER.Designer.cs">
       <DependentUpon>MENU_USER.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrontEnd\Notify\Usuario_\Grupo_User\GrupNot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontEnd\Notify\Usuario_\Grupo_User\GrupNot.Designer.cs">
+      <DependentUpon>GrupNot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnd\Notify\Usuario_\Grupo_User\grupo_mod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontEnd\Notify\Usuario_\Grupo_User\grupo_mod.Designer.cs">
+      <DependentUpon>grupo_mod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnd\Notify\Usuario_\Grupo_User\grupo_notificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontEnd\Notify\Usuario_\Grupo_User\grupo_notificacion.Designer.cs">
+      <DependentUpon>grupo_notificacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrontEnd\Notify\Usuario_\Notificacion_User\UserNot.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,6 +184,7 @@
     <Compile Include="FrontEnd\Notify\Admin_\USUARIOS\usuarios_view.Designer.cs">
       <DependentUpon>usuarios_view.cs</DependentUpon>
     </Compile>
+    <Compile Include="JSON_\GrupoJson.cs" />
     <Compile Include="JSON_\JsonHelper.cs" />
     <Compile Include="JSON_\NotificacionJson.cs" />
     <Compile Include="JSON_\SeccionJson.cs" />
@@ -180,6 +199,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrontEnd\Notify\MainMenu\MENU_USER.resx">
       <DependentUpon>MENU_USER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnd\Notify\Usuario_\Grupo_User\GrupNot.resx">
+      <DependentUpon>GrupNot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnd\Notify\Usuario_\Grupo_User\grupo_mod.resx">
+      <DependentUpon>grupo_mod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnd\Notify\Usuario_\Grupo_User\grupo_notificacion.resx">
+      <DependentUpon>grupo_notificacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrontEnd\Notify\Usuario_\Notificacion_User\UserNot.resx">
       <DependentUpon>UserNot.cs</DependentUpon>
@@ -223,7 +251,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="FrontEnd\Notify\Usuario_\Grupo_User\" />
+    <Folder Include="JSON_\GruposUsuario\" />
     <Folder Include="JSON_\NotificacionesUsuario\" />
     <Folder Include="JSON_\SeccionesUsuario\" />
     <Folder Include="System\" />

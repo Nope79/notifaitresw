@@ -154,3 +154,6 @@ C:\Users\nopes\OneDrive\Escritorio\Notify\main\Proyecto 1\obj\Debug\Proyecto 1.c
 C:\Users\nopes\OneDrive\Escritorio\Notify\main\Proyecto 1\obj\Debug\Proyecto 1.csproj.Up2Date
 C:\Users\nopes\OneDrive\Escritorio\Notify\main\Proyecto 1\obj\Debug\Proyecto 1.exe
 C:\Users\nopes\OneDrive\Escritorio\Notify\main\Proyecto 1\obj\Debug\Proyecto 1.pdb
+C:\Users\nopes\OneDrive\Escritorio\Notify\main\Proyecto 1\obj\Debug\Proyecto_1.FrontEnd.Notify.Usuario_.Grupo_User.GrupNot.resources
+C:\Users\nopes\OneDrive\Escritorio\Notify\main\Proyecto 1\obj\Debug\Proyecto_1.FrontEnd.Notify.Usuario_.Grupo_User.grupo_mod.resources
+C:\Users\nopes\OneDrive\Escritorio\Notify\main\Proyecto 1\obj\Debug\Proyecto_1.FrontEnd.Notify.Usuario_.Grupo_User.grupo_notificacion.resources
